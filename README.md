@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **[View Live on Vercel](#)** *(link will be added after deployment)*
+🔗 **https://movie-explorer-mobile-pwa.vercel.app/**
 
 ---
 
