@@ -31,3 +31,31 @@
 h1 {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .movie-grid,
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .movie-grid,
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem;
+  }
+}
