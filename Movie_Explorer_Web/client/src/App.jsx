@@ -6,6 +6,11 @@ import Navbar from "./components/Navbar";
 import Watchlist from "./pages/Watchlist";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { WatchlistProvider } from "./context/WatchvistContext";
+import { registerSW } from 'virtual:pwa-register'
+
+registerSW({
+  immediate: true
+})
 
 function App() {
   const [movies, setMovies] = useState([]);
